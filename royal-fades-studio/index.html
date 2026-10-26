@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<style>body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Royal Fades Studio &amp; Barbershop</title>
+<meta name="description" content="Concept preview website for Royal Fades Studio &amp; Barbershop in Delray Beach, FL">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Lato:wght@400;700&display=swap">
+<style>
+:root{--bg:#140f1f;--surface:#1e1730;--ink:#f1ecf9;--muted:#b3a8c9;--accent:#e0b84f;--accent-text:#e0b84f;--accent-ink:#1b1405;--line:#352a4d;
+--display:'Cinzel Decorative',Georgia, serif;--body:'Lato',system-ui, sans-serif;--radius:14px;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;margin:0}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.sample{background:var(--accent);color:var(--accent-ink);font-size:13px;font-weight:600;letter-spacing:.02em}
+.sample .wrap{padding-block:8px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.sample b{font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:18px;flex-wrap:wrap}
+.brand{font-family:var(--display);font-size:22px;text-decoration:none; line-height:1.1}
+nav{display:flex;gap:18px;flex-wrap:wrap;font-weight:600;font-size:15px}
+nav a{text-decoration:none;color:var(--muted)}
+nav a:hover,nav a:focus-visible{color:var(--ink)}
+.hero{padding-block:36px 56px}
+.hero .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}
+.hero.stack .grid{grid-template-columns:1fr}
+.hero.poster{position:relative;overflow:hidden}
+.hero.poster .art{position:absolute;inset:auto -40px -30px auto;width:min(520px,70%);opacity:.22;pointer-events:none}
+.hero.poster .grid{grid-template-columns:1fr;position:relative}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(38px,6.4vw,72px);line-height:1.02;margin:0 0 18px;text-wrap:balance;}
+.hero .lede{font-size:clamp(17px,2vw,20px);color:var(--muted);max-width:56ch;margin:0 0 26px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-text);margin:0 0 14px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:8px;border-radius:999px;padding:13px 22px;font-weight:700;font-size:16px;border:2px solid var(--accent);text-decoration:none;cursor:pointer;font-family:var(--body)}
+.btn.primary{background:var(--accent);color:var(--accent-ink)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn:focus-visible,button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.facts{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:26px;color:var(--muted);font-size:15px}
+.facts span{display:inline-flex;gap:8px;align-items:center}
+.facts strong{color:var(--ink)}
+.art svg{width:100%;height:auto;display:block}
+.hero.stack .art{max-width:640px}
+section.block{padding-block:56px;border-top:1px solid var(--line)}
+h2{font-family:var(--display);font-size:clamp(28px,4vw,40px);line-height:1.1;margin:0 0 10px;text-wrap:balance;}
+.sub{color:var(--muted);margin:0 0 28px;max-width:60ch}
+.menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 40px}
+.item{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding-block:16px;border-bottom:1px dashed var(--line)}
+.item h3{margin:0;font-size:17px;font-weight:700}
+.item p{margin:0;color:var(--muted);font-size:14px;grid-column:1/-1}
+.price{font-variant-numeric:tabular-nums;font-weight:700;color:var(--accent-text)}
+.note{font-size:13px;color:var(--muted);margin-top:18px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+table.hours{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+table.hours td{padding:10px 0;border-bottom:1px solid var(--line)}
+table.hours td:last-child{text-align:right;color:var(--muted)}
+table.hours tr.today td{font-weight:700;color:var(--ink)}
+table.hours tr.today td:first-child::after{content:" · today";color:var(--accent-text);font-weight:600;font-size:13px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.reviews{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.rev{margin:0;background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:20px}
+.rev blockquote{margin:10px 0 12px;font-size:17px;line-height:1.45}
+.rev figcaption{color:var(--muted);font-size:14px}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-text);border:1px solid currentColor;border-radius:999px;padding:2px 9px}
+.card p{margin:0 0 12px}
+.copyrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.copyrow code{font-family:var(--body);font-size:20px;font-weight:700;letter-spacing:.02em}
+.small{font-size:14px;color:var(--muted)}
+.chip{font-size:13px;border:1px solid var(--line);border-radius:999px;padding:4px 10px;color:var(--muted)}
+.book{display:grid;grid-template-columns:1fr 360px;gap:40px;align-items:start}
+.steps{margin:0;padding:0;list-style:none;display:grid;gap:14px}
+.steps li{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}
+.steps .n{width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font-weight:800}
+.phone{background:#0b0b0f;border-radius:36px;padding:14px;box-shadow:0 20px 50px rgba(0,0,0,.25);max-width:360px;width:100%}
+.screen{background:#f4f4f7;color:#15151a;border-radius:24px;min-height:520px;display:flex;flex-direction:column;overflow:hidden;font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+.screen .bar{background:#ffffff;border-bottom:1px solid #e3e3ea;padding:12px 14px;font-size:13px;display:flex;justify-content:space-between;gap:8px}
+.screen .bar b{font-size:14px}
+.thread{flex:1;padding:14px;display:flex;flex-direction:column;gap:8px;overflow-y:auto;max-height:430px}
+.sys{align-self:center;font-size:12px;color:#6b6b78;background:#e7e7ee;border-radius:999px;padding:4px 10px}
+.msg{max-width:82%;padding:9px 12px;border-radius:18px;font-size:14px;line-height:1.35}
+.msg.in{align-self:flex-start;background:#ffffff;border:1px solid #e3e3ea;border-bottom-left-radius:6px}
+.msg.out{align-self:flex-end;background:#2f7bf6;color:#ffffff;border-bottom-right-radius:6px}
+.opts{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 14px}
+.opts button{font:inherit;font-size:13px;border:1px solid #2f7bf6;color:#2f7bf6;background:#ffffff;border-radius:999px;padding:7px 12px;cursor:pointer}
+.opts button:hover{background:#eaf1ff}
+.demo-note{font-size:12px;color:var(--muted);margin-top:10px;max-width:360px}
+footer{border-top:1px solid var(--line);padding-block:36px;color:var(--muted);font-size:14px}
+footer .wrap{display:grid;gap:8px}
+@media (max-width:820px){.hero .grid,.two,.book{grid-template-columns:1fr}.menu{grid-template-columns:1fr}.hero.poster .art{width:90%;opacity:.14}.phone{margin:0 auto}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+<div class="sample"><div class="wrap"><b>Concept preview</b><span>A free concept for Royal Fades Studio &amp; Barbershop. This isn’t the shop’s official website. Details come from public listings; prices and reviews are samples.</span></div></div>
+<header class="top"><div class="wrap"><a class="brand" href="#top">Royal Fades</a>
+<nav aria-label="Sections"><a href="#services">Services</a><a href="#visit">Hours</a><a href="#book">Book</a></nav></div></header>
+<main id="top">
+<section class="hero poster"><div class="art"><svg viewBox="0 0 300 200" aria-hidden="true"><path d="M40 150 L60 60 L110 110 L150 40 L190 110 L240 60 L260 150Z" style="fill:var(--accent)"/><rect x="40" y="158" width="220" height="16" rx="4" style="fill:var(--accent)"/><circle cx="60" cy="56" r="9" style="fill:var(--accent)"/><circle cx="150" cy="34" r="9" style="fill:var(--accent)"/><circle cx="240" cy="56" r="9" style="fill:var(--accent)"/></svg></div><div class="wrap grid"><div><p class="eyebrow">Barbershop · W Atlantic Ave</p><h1>Get the Royal Treatment</h1><p class="lede">Cuts for men, seniors and kids, beard trims and hot towel shaves on West Atlantic. Walk-ins welcome seven days a week.</p><div class="ctas"><a class="btn primary" href="#book">Book a cut</a><a class="btn ghost" href="#visit">Hours and directions</a></div><div class="facts"><span>Open 7 days</span><span>Walk-ins welcome</span><span>Kids feel at home</span></div></div></div></section>
+<section class="block" id="services"><div class="wrap">
+<h2>Services</h2><p class="sub">From a quick trim to the full Royal Treatment.</p>
+<div class="menu"><div class="item"><h3>Men’s haircut</h3><span class="price">$30</span><p>Cut and style.</p></div><div class="item"><h3>Senior cut</h3><span class="price">$25</span><p>65 and over.</p></div><div class="item"><h3>Kids cut</h3><span class="price">$22</span><p>12 and under.</p></div><div class="item"><h3>Beard trim</h3><span class="price">$15</span><p>Shape and line-up.</p></div><div class="item"><h3>Hot towel shave</h3><span class="price">$30</span><p>Straight razor finish.</p></div><div class="item"><h3>The Royal Treatment</h3><span class="price">$55</span><p>Cut, beard, hot towel and finish.</p></div></div>
+<p class="note">Sample menu and prices for this preview. The live site would show the shop’s own.</p>
+</div></section>
+<section class="block" id="reviews"><div class="wrap">
+<h2>What customers say</h2><p class="sub">Sample reviews. These placeholders show where Royal Fades Studio &amp; Barbershop’s real reviews would go. No customer wrote them.</p>
+<div class="reviews"><figure class="rev"><span class="tag">Sample review</span><blockquote>Friendly people, and I was in and out on time.</blockquote><figcaption>Placeholder, not a real customer</figcaption></figure><figure class="rev"><span class="tag">Sample review</span><blockquote>Easy to book, and they took their time to get it right.</blockquote><figcaption>Placeholder, not a real customer</figcaption></figure><figure class="rev"><span class="tag">Sample review</span><blockquote>Clean, welcoming and fairly priced. I’ll be back.</blockquote><figcaption>Placeholder, not a real customer</figcaption></figure></div>
+</div></section>
+<section class="block" id="visit"><div class="wrap two">
+<div><h2>Hours</h2><table class="hours"><tbody><tr data-day="0"><td>Monday</td><td>9 am – 6 pm</td></tr><tr data-day="1"><td>Tuesday</td><td>9 am – 6 pm</td></tr><tr data-day="2"><td>Wednesday</td><td>9 am – 6 pm</td></tr><tr data-day="3"><td>Thursday</td><td>9 am – 7 pm</td></tr><tr data-day="4"><td>Friday</td><td>9 am – 7 pm</td></tr><tr data-day="5"><td>Saturday</td><td>9 am – 5 pm</td></tr><tr data-day="6"><td>Sunday</td><td>10 am – 4 pm</td></tr></tbody></table></div>
+<div><h2>Visit</h2><div class="card"><p><strong>4059 W Atlantic Ave, Delray Beach, FL 33445</strong></p><p><a class="btn ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Royal+Fades+Studio+&amp;+Barbershop+4059+W+Atlantic+Ave+Delray+Beach+FL+33445" target="_blank" rel="noopener">Get directions</a></p>
+<p class="small">Call or text</p><div class="copyrow"><code>(561) 332-3228</code><button class="btn ghost" type="button" data-copy="(561) 332-3228">Copy number</button></div></div></div>
+</div></section>
+<section class="block" id="book"><div class="wrap book">
+<div><p class="eyebrow">Never miss a booking</p><h2>Missed a call? The assistant texts them back.</h2>
+<p class="sub">When the shop can’t pick up, the AI assistant sends the caller a text and books them into an open slot, so the chair stays full while the clippers are running.</p>
+<ol class="steps"><li><span class="n">1</span><span>A customer calls while every barber is busy.</span></li><li><span class="n">2</span><span>They get a text from Royal Fades Studio &amp; Barbershop right away with a few quick options.</span></li><li><span class="n">3</span><span>They pick a service and a time. The appointment lands on the shop’s calendar.</span></li></ol></div>
+<div><div class="phone"><div class="screen"><div class="bar"><b>Royal Fades Studio &amp; Barbershop</b><span>Text message</span></div>
+<div class="thread" id="thread" aria-live="polite"></div><div class="opts" id="opts"></div></div></div>
+<p class="demo-note">Try it: this is a demo of the text-back assistant. It isn’t connected to the shop’s phone and doesn’t make real bookings.</p></div>
+</div></section>
+</main>
+<footer><div class="wrap"><strong>Royal Fades Studio &amp; Barbershop</strong><span>4059 W Atlantic Ave, Delray Beach, FL 33445</span>
+<span>Concept preview prepared as a free sample. Not affiliated with or endorsed by Royal Fades Studio &amp; Barbershop.</span></div></footer>
+<script type="application/json" id="cfg">{"name": "Royal Fades Studio & Barbershop", "address": "4059 W Atlantic Ave", "hours": [[9, 18], [9, 18], [9, 18], [9, 19], [9, 19], [9, 17], [10, 16]], "demoServices": ["Men\u2019s haircut", "Senior cut", "Kids cut"], "text": {"ask": "Hi, this is {name}! Sorry we missed your call. Want to book? Pick a service:", "slot": "Nice choice. Here are the next open times for a {service_l}:", "confirm": "You\u2019re booked: {service}, {slot} at {name}, {where}. Reply C to cancel.", "urgent": null, "urgent_confirm": null}}</script>
+<script>
+(function(){
+const cfg = JSON.parse(document.getElementById('cfg').textContent);
+// Highlight today's hours row.
+const dayIdx = (new Date().getDay() + 6) % 7;
+const row = document.querySelector('tr[data-day="' + dayIdx + '"]');
+if (row) row.classList.add('today');
+// Copy phone number.
+document.querySelectorAll('[data-copy]').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    const text = btn.getAttribute('data-copy');
+    const done = function(){ btn.textContent = 'Copied'; setTimeout(function(){ btn.textContent = 'Copy number'; }, 1600); };
+    try { navigator.clipboard.writeText(text).then(done, function(){ selectText(btn); }); } catch (e) { selectText(btn); }
+  });
+});
+function selectText(btn){
+  const code = btn.parentElement.querySelector('code');
+  if (!code) return;
+  const r = document.createRange(); r.selectNodeContents(code);
+  const s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+}
+// Missed-call text-back demo.
+const thread = document.getElementById('thread');
+const opts = document.getElementById('opts');
+function add(cls, text){
+  const d = document.createElement('div'); d.className = cls; d.textContent = text;
+  thread.appendChild(d); thread.scrollTop = thread.scrollHeight;
+}
+function choices(list, onPick){
+  opts.innerHTML = '';
+  list.forEach(function(label){
+    const b = document.createElement('button'); b.type = 'button'; b.textContent = label;
+    b.addEventListener('click', function(){ opts.innerHTML = ''; add('msg out', label); setTimeout(function(){ onPick(label); }, 450); });
+    opts.appendChild(b);
+  });
+}
+function nextSlots(){
+  const hours = cfg.hours; const out = []; const now = new Date();
+  for (let k = 0; k < 10 && out.length < 3; k++) {
+    const d = new Date(now); d.setDate(now.getDate() + k);
+    const idx = (d.getDay() + 6) % 7; const h = hours ? hours[idx] : [9, 18];
+    if (!h) continue;
+    const start = k === 0 ? Math.max(h[0] + 1, now.getHours() + 2) : h[0] + 1;
+    const t = Math.ceil(start * 2) / 2;
+    if (t > h[1] - 1) continue;
+    const dayName = k === 0 ? 'Today' : (k === 1 ? 'Tomorrow' : d.toLocaleDateString('en-US', {weekday: 'long'}));
+    out.push(dayName + ' ' + fmt(t));
+  }
+  return out.length ? out : ['Tomorrow 10:00 am', 'Tomorrow 2:00 pm'];
+}
+function fmt(t){
+  const h = Math.floor(t), m = Math.round((t - h) * 60);
+  return ((h % 12) || 12) + ':' + (m < 10 ? '0' : '') + m + (h < 12 ? ' am' : ' pm');
+}
+function say(tpl, service, slot){
+  return tpl.replace(/\{name\}/g, cfg.name).replace(/\{where\}/g, cfg.address || '')
+    .replace(/\{service_l\}/g, (service || '').toLowerCase()).replace(/\{service\}/g, service || '').replace(/\{slot\}/g, slot || '');
+}
+function start(){
+  thread.innerHTML = ''; opts.innerHTML = '';
+  add('sys', 'Missed call · (561) 555-0142 · just now');
+  setTimeout(function(){
+    add('msg in', say(cfg.text.ask));
+    choices(cfg.demoServices, function(service){
+      add('msg in', say(cfg.text.slot, service));
+      const slots = nextSlots();
+      if (cfg.text.urgent) slots.unshift(cfg.text.urgent);
+      choices(slots, function(slot){
+        const urgent = cfg.text.urgent && slot === cfg.text.urgent;
+        add('msg in', say(urgent ? cfg.text.urgent_confirm : cfg.text.confirm, service, slot));
+        add('sys', 'Demo only · no booking was made');
+        opts.innerHTML = '';
+        const again = document.createElement('button'); again.type = 'button'; again.textContent = 'Start over';
+        again.addEventListener('click', start); opts.appendChild(again);
+      });
+    });
+  }, 500);
+}
+start();
+})();
+</script>
+</body>
+</html>
